@@ -1,0 +1,88 @@
+/* CSS Document */
+/* All comments go between the front slash and asterisk symbols */
+
+body {
+	background-color: #F0F0F0;   /* background color */
+	color: #444;          /* text color for the entire page */
+}
+
+h1, h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	color:#A99C80;
+}
+
+/* styles for the "wrapper" div, notice that "wrapper" is preceded by "#" */
+#wrapper {
+	width: 85%;
+	margin: 0 auto;    /* centers wrapper */
+}
+
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:20px;
+	text-align:left;
+	background-color:#003057;
+	font-weight: bold;
+	font-size: 175%;
+	color: #f2f4ef;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:20px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	font-size: 200%;
+}
+
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:15px;
+	text-align: center;
+}
+
+.stepImage img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+    width:100%;
+    height:auto;
+}
+.flowchartImage img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+    width:110%;
+    height:auto;
+	
+}
+.apa-ref p {
+	
+	margin-left:  .5in; 
+	text-indent: -.5in; 
+	margin-left:   2em; 
+	text-indent:  -2em; 
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+strong {
+  font-weight: 800;
+}
