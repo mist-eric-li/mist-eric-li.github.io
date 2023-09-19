@@ -111,8 +111,8 @@ details[open] summary {
 	top:0%;
   	left:25%;
 	bottom:10%;
-	-webkit-transform:scale(1.0);
-	-ms-transform: translateX(-50%);
+	/*transform:scale(1.0);*/
+	/*-ms-transform: translateX(-50%);*/
 	transform: scale (1.00);
 }
 .apa-ref p {
