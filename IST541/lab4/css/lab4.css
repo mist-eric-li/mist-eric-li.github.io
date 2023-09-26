@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	text-align: center;
+	background-color: #003057;  
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: #A99c80;  /* creates white background with 80% opacity */
+}
+
+table {
+	margin:0 auto;  /* centers table*/
+}
+
+td {
+	background-color: #d9d3c6;  /* sets background color for table cells*/
+}
+
+
+h1, h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	color:#f4f2ef;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:  #41695B; 
+	color:  #d9d3c6; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: #789389; 
+	color: #f4f2ef; 
+}
+audio { 
+	width:200px;   /* sets the width of the audio controls */
+}
+
+
+.apa-ref p {
+	color:#f4f2ef;
+	margin-left:  .5in; 
+	text-indent: -.5in; 
+	margin-left:   2em; 
+	text-indent:  -2em; 
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
