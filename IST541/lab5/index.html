@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/deck.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>How are the Tea Dragon Society Cards Formatted?</h1>
+	<a href="question1.html"> Resources Format </a>
+	<a href="question2.html"> Points Question </a>
+	<br> <br>
+	
+	<div id="wrapper">
+ 		
+ 		<br>
+	
+		
+		<h2>Each card in The Tea Dragon Society follow a general structure.</h2> 
+		
+		<h2> Click on one of the following choices to see where the important parts of the card are.</h2>
+		
+		<h2 onclick="reset()" class="choices"> Example Card</h2>
+
+		<h2 onclick="Answer1()" class="choices"> Growth Resources </h2>
+		
+		<h2 onclick="Answer2()" class="choices"> Cost of the Card </h2>
+		
+		<h2 onclick="Answer3()" class="choices"> Points given at the end of the game </h2>
+		
+ 		<div id="feedback">
+		
+		
+		
+		</div>
+		
+		<img  id="ExampleCard"  src="img/showcard.jpg"  alt="Example of Card" />
+ 		 <img  id="pointedit"  src="img/points.jpg"  alt="Example of Card" />
+		<img  id="costedit"  src="img/cost.jpg"  alt="Example of Card" />
+		<img  id="growthedit"  src="img/growth.jpg"  alt="Example of Card" />
+		
+		<script>
+			
+		function reset(){
+			$("#feedback").html("<h2 style='color:#f4f2ef'></h2>");
+			$("#ExampleCard").show();
+			$("#growthedit").hide();
+			$("#pointedit").hide();
+			$("#costedit").hide();
+      		}
+			
+      	function Answer1(){
+			$("#feedback").html("<h2 style='color:#f4f2ef'> The growth resources are at the top of the card, on top of the leaf icon.</h2>");
+			$("#ExampleCard").hide();
+			$("#growthedit").show();
+			$("#pointedit").hide();
+			$("#costedit").hide();
+      		}
+		function Answer2(){
+      		$("#feedback").html("<h2 style='color:#f4f2ef'> The cost of the card is the number on top of the mug at the top right of the card. </h2> ");
+      		$("#ExampleCard").hide();
+			$("#pointedit").hide();
+			$("#costedit").show();
+			$("#growthedit").hide();
+   			}
+	 	function Answer3(){
+      		$("#feedback").html("<h2 style='color:#f4f2ef'> The points the card is worth is at the bottom of the card. </h2>");
+      		$("#ExampleCard").hide();
+			$("#pointedit").show();
+			$("#costedit").hide();
+			$("#growthedit").hide();
+			}
+
+   	  </script>
+  
+</div>
+
+	
+	
+</body>
+</html>

@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color: #003057;  
+}
+
+#wrapper {
+	width:900px;
+	margin:0 auto;         /* centers wrapper */
+ 	text-align:center;
+	background-color: #A99c80;  
+}
+
+h1, h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	color:#f4f2ef;
+}
+
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:  #41695B; 
+	color:  #d9d3c6; 
+}
+
+a:hover {
+	font-size:200%;
+	background-color: #789389; 
+	color: #f4f2ef; 
+}
+
+ #card1 {
+	border: black 5px solid;
+	width: 50%;
+	height: auto;
+}
+
+#quest2{
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;}
+ 
+ #card1edit {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+#ExampleCard{
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+
+
+#pointedit {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+#growthedit {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+#costedit {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+.choices {
+	cursor: pointer;
+	align-self: center;
+	background-color: #789389;
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+
+	
+}

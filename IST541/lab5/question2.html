@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Question2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/deck.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>How Many Points is this Card Worth?</h1>
+	
+	<a href="index.html"> Card Format </a>
+		<a href="question1.html"> Resources Question </a>
+	<br> <br>
+	
+	
+	<div id="wrapper">
+		<br>
+		<h2>Click on one of the following choices</h2>
+
+		<img  src="img/quest2.jpg" width=35% height=auto/>
+		<h2 onclick="wrongAnswer2()" class="choices"> Six </h2>
+		
+		<h2 onclick="wrongAnswer1()" class="choices"> Four </h2>
+		
+		<h2 onclick="rightAnswer()" class="choices"> Two </h2>
+		
+		<h2 onclick="wrongAnswer2()" class="choices"> Eight </h2>
+
+		<div id="feedback"></div>
+			<img id="quest2" src="img/pointsquest.jpg" width=50% height=auto/>
+		</div>
+
+	 <script>
+      	function rightAnswer(){
+			$("#feedback").html("<h2 style='color:#C6E6D4'> That's Right! The points are written at the bottom of the card.</h2> ");
+			$("#quest2").show();
+      		}
+		function wrongAnswer1(){
+      		$("#feedback").html("<h2 style='color:#844352'> No, four is the cost of the card. </h2> <br> <br>");
+      		$("#quest2").hide();
+   			}
+	 	function wrongAnswer2(){
+      		$("#feedback").html("<h2 style='color:#844352'> No, you shouldn't need to add any numbers for the answer. </h2> <br> <br>");
+      		$("#quest2").hide();
+			}
+   	  </script>
+
+	
+	
+</body>
+</html>

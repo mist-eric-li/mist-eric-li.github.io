@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>question1.html</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<link href="css/deck.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>How many resources does this card give you?</h1>
+	<a href="index.html"> Card Format </a>
+		<a href="question2.html"> Points Question </a>
+		<br> <br>
+		
+	<div id="wrapper">
+ 		
+ 		<br>
+		<h2 id="hint">Hint: Hover over the image below to find out!</h2>
+ 
+		<img onmouseenter="showAnswer()" id="card1"  src="img/card1.jpg"  alt="Sleeping Card" />
+		<img onmouseleave="hideAnswer()" id="card1edit" src="img/card1edit.jpg" alt="Sleeping Card with growth highlighted" />
+		
+ 		<div id="answer"></div>
+  
+</div>
+
+	<script>
+ 	function showAnswer() {
+	   $("#card1").hide();
+	   $("#card1edit").show();
+	   $("#answer").html("<h2>You get one growth resource when discarding this card from your hold.</h2> <br>");
+	}
+
+	function hideAnswer() {
+	   $("#card1").show();
+	   $("#card1edit").hide();
+	   $("#answer").html("");  
+	}
+</script>
+	
+
+
+	
+</body>
+</html>
