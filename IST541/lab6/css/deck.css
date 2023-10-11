@@ -7,6 +7,10 @@ body {
 	background-color: #003057;  
 }
 
+h1, h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	color:#f4f2ef;
+}
 #wrapper {
 	width:auto;
 	margin:0 auto; 
