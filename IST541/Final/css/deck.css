@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color: #d9d3c6;  
+}
+
+h1, h2 { 
+	text-align:center; /* centers h1 and h2 content */
+	
+}
+a {
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:  #41695B; 
+	color:  #d9d3c6; 
+}
+#header {
+	background-color: #003057;
+}
+a:hover {
+	font-size:200%;
+	background-color: #789389; 
+	color: #f4f2ef; 
+}
+#wrapper {
+	width:auto;
+	margin:0 auto; 
+ 	text-align:center;
+	background-color: #A99c80;  
+}
+details summary {
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+details[open] summary {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	box-shadow: 0 0px 0px 0 gray, 0 0px 0px 0 gray; 
+
+}
+/* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
+.stepTitle{
+	padding:20px;
+	text-align:left;
+	background-color:#003057;
+	font-weight: bold;
+	font-size: 175%;
+	color: #f2f4ef;
+ }
+
+.stepContent{ 
+	background-color: white;
+	padding:20px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: center;
+	font-size: 200%;
+}
+.stepDescription img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+    width:100%;
+    height:auto;
+}
+
+.stepDescription iframe {
+	
+}
+.stepDescription {
+	width:55%;
+	padding:5px;
+	line-height:145%;
+}
+
+.stepImage {
+	width:40%;	
+	padding:15px;
+	text-align: center;
+}
+
+.stepImage img {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray; 
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+    width:100%;
+    height:auto;
+}
+
+
+
+#feedback {
+	background: #41695B; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+}
+.apa-ref p {
+	
+	margin-left:  .5in; 
+	text-indent: -.5in; 
+	margin-left:   2em; 
+	text-indent:  -2em; 
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.white p{
+	font-size: 175%;
+	color: #f2f4ef;
+	
+}
+.toptext p {
+	
+	text-align: left;
+	font-size: 200%;
+}
+.choices {
+	cursor: pointer;
+	align-self: center;
+	background-color: #789389;
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+}
+#sw{
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+
+
+#fan {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+#horror {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+#dnd {
+	display: none; /* hides content */
+	border: black 5px solid;
+	 width: 50%;
+	height: auto;
+}
+	

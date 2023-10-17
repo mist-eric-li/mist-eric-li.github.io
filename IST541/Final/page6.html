@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index.html</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="css/deck.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<h1>Deckbuilder Recommendations</h1>
+	<a href="index.html"> History of Deckbuilders </a>
+	<a href="page2.html"> History of VG Deckbuilders </a>
+	<a href="page3.html"> Deckbuilder Mechanics </a>
+	<a href="page4.html"> Deckbuilder Activity </a>
+	<a href="page5.html"> Deckbuilder Examples </a>
+
+	<br><br>
+
+	<div id="wrapper">
+	<br>
+		<h2>Click on one of the following choices to get a recommendation!</h2>
+
+		<h2 onclick="DND()" class="choices"> High Fantasy like DnD! </h2>
+		
+		<h2 onclick="Fantasy()" class="choices"> Anything goes! </h2>
+		
+		<h2 onclick="SW()" class="choices"> Sci-Fi! </h2>
+		
+		<h2 onclick="Horror()" class="choices"> Horror or something dystopian </h2>
+
+		<div id="feedback"></div>
+			<img id="sw" src="img/sw.png" width=50% height=auto/>
+			<img id="dnd" src="img/Clank.jpg" width=50% height=auto/>
+			<img id="fan" src="img/dom.png" width=50% height=auto/>
+			<img id="horror" src="img/ins.jpg" width=50% height=auto/>
+		</div>
+
+	<script>
+      	function SW(){
+			$("#feedback").html("<h2 > Try the Star Wars Deckbiilding Game!</h2> ");
+			$("#sw").show();
+			$("#horror").hide();
+			$("#fan").hide();
+			$("#dnd").hide();
+      		}
+		function Fantasy(){
+      		$("#feedback").html("<h2>Try Dominion! </h2>  <br>");
+      		$("#fan").show();
+			$("#horror").hide();
+			$("#dnd").hide();
+			$("#sw").hide();
+   			}
+	 	function DND(){
+      		$("#feedback").html("<h2> Try Clank!</h2> <br> ");
+      		$("#dnd").show();
+			$("#horror").hide();
+			$("#fan").hide();
+			$("#sw").hide();
+			}
+		function Horror(){
+      		$("#feedback").html("<h2> Try Inscryption! </h2> <br>");
+      		$("#horror").show();
+			$("#fan").hide();
+			$("#dnd").hide();
+			$("#sw").hide();
+			}
+   	  </script>
+
+
+</body>
+</html>
